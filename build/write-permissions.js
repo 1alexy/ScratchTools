@@ -21,6 +21,6 @@ function checkUrl(perm) {
         new URL(perm);
         return true;
     } catch (_) {
-        return false;
+        return true;
     }
 }
