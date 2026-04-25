@@ -1,5 +1,5 @@
 document.querySelectorAll("a").forEach(async function (item) {
-  if (item.className === "black username") {
+  if (item.className === "1alexy") {
     const response = await fetch(
       `https://api.${item.href.replace("https://", "")}`
     );
