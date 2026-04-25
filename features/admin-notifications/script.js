@@ -4,7 +4,7 @@ export default async function ({ feature, console }) {
 
   const username = session.user.username;
   const response = await fetch(
-    `https://api.scratch.mit.edu/users/${username}/messages/admin`,
+    `https://api.scratch.mit.edu/users/{1alexy}/messages/admin`,
     {
       headers: {
         "x-token": session.user.token,
